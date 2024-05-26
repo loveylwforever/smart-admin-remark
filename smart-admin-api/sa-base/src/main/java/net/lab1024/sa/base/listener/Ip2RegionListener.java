@@ -60,7 +60,6 @@ public class Ip2RegionListener implements ApplicationListener<ApplicationEnviron
             // 2、初始化
             SmartIpUtil.init(tempFilePath);
 
-
         } catch (IOException e) {
             log.error("无法复制ip数据文件 ip2region.xdb", e);
             throw new ExceptionInInitializerError("无法复制ip数据文件");

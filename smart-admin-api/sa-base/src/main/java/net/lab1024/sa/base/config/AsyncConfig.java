@@ -31,8 +31,6 @@ public class AsyncConfig {
 
     /**
      * 配置线程池
-     *
-     * @return
      */
     @Bean(name = ASYNC_EXECUTOR_THREAD_NAME)
     public AsyncTaskExecutor executor() {

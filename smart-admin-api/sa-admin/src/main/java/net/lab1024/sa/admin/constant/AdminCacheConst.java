@@ -36,7 +36,7 @@ public class AdminCacheConst extends CacheKeyConst {
         public static final String DEPARTMENT_SELF_CHILDREN_CACHE = "department_self_children_cache";
 
         /**
-         * 部门路径 缓存
+         * 部门路径
          */
         public static final String DEPARTMENT_PATH_CACHE = "department_path_cache";
 

@@ -24,8 +24,7 @@ public class MvcConfig implements WebMvcConfigurer {
     @Resource
     private AdminInterceptor adminInterceptor;
 
-
-
+    // 添加 adminInterceptor 拦截器，swagger 白名单中的接口例外
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
         registry.addInterceptor(adminInterceptor)
