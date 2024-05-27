@@ -66,8 +66,7 @@ public class UrlConfig {
     /**
      * 需要进行url权限校验的方法
      *
-     * @param methodUrlMap
-     * @return
+     * @param methodUrlMap 方法 url map
      */
     @Bean
     public List<RequestUrlVO> authUrl(Map<Method, Set<String>> methodUrlMap) {
@@ -120,8 +119,6 @@ public class UrlConfig {
 
     /**
      * 获取无需登录可以匿名访问的url信息
-     *
-     * @return
      */
     @Bean
     public List<String> noNeedLoginUrlList(Map<Method, Set<String>> methodUrlMap) {
