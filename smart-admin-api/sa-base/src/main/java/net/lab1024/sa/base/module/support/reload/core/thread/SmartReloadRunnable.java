@@ -70,8 +70,8 @@ public class SmartReloadRunnable implements Runnable {
     /**
      * 方法调用
      *
-     * @param smartReloadItem
-     * @return
+     * @param smartReloadItem 重载项
+     * @return 返回缓存的结果
      */
     private SmartReloadResult doReload(SmartReloadItem smartReloadItem) {
         SmartReloadResult result = new SmartReloadResult();

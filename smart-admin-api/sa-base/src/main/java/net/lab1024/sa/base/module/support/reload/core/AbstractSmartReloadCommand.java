@@ -27,9 +27,6 @@ public abstract class AbstractSmartReloadCommand {
 
     private SmartReloadManager smartReloadManager;
 
-    /**
-     * @return
-     */
     public void setReloadManager(SmartReloadManager smartReloadManager) {
         this.smartReloadManager = smartReloadManager;
     }
