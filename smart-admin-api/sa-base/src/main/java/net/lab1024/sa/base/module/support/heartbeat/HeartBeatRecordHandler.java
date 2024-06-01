@@ -27,7 +27,10 @@ public class HeartBeatRecordHandler implements IHeartBeatRecordHandler {
 
     /**
      * 心跳日志处理方法
-     * @param heartBeatRecord
+     * @param heartBeatRecord 心跳日志记录
+     *                        查询是否存在同一服务器和进程号的记录
+     *                        如果没有，则新增一条，可观测所有服务的运行及重启全貌 非常 nice
+     *                        如果存在，则更新当前服务运行记录，通过当前自增 id 可以看出运行了多少分钟
      */
     @Override
     public void handler(HeartBeatRecord heartBeatRecord) {

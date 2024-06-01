@@ -26,7 +26,7 @@ public enum UserErrorCode implements ErrorCode {
 
     NO_PERMISSION(30005, "对不起，您没有权限访问此内容哦~"),
 
-    DEVELOPING(30006, "系統正在紧急开发中，敬请期待~"),
+    DEVELOPING(30006, "系统正在紧急开发中，敬请期待~"),
 
     LOGIN_STATE_INVALID(30007, "您还未登录或登录失效，请重新登录！"),
 
