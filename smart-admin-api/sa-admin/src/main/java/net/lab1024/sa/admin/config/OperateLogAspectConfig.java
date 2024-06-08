@@ -24,5 +24,4 @@ public class OperateLogAspectConfig extends OperateLogAspect{
         return OperateLogConfig.builder().corePoolSize(1).queueCapacity(10000).build();
     }
 
-
 }
