@@ -151,24 +151,24 @@
       }
     };
 
-    notification['success']({
-      message: '温馨提示',
-      description: 'SmartAdmin 提供 9种 登录背景风格哦！',
-      duration: 8,
-      onClick: () => {},
-      btn: () =>
-        h(
-          Button,
-          {
-            type: 'primary',
-            target: '_blank',
-            size: 'small',
-            href: 'https://smartadmin.vip/views/v3/front/Login.html',
-            onClick: () => {},
-          },
-          { default: () => '去看看' }
-        ),
-    });
+    // notification['success']({
+    //   message: '温馨提示',
+    //   description: 'SmartAdmin 提供 9种 登录背景风格哦！',
+    //   duration: 8,
+    //   onClick: () => {},
+    //   btn: () =>
+    //     h(
+    //       Button,
+    //       {
+    //         type: 'primary',
+    //         target: '_blank',
+    //         size: 'small',
+    //         href: 'https://smartadmin.vip/views/v3/front/Login.html',
+    //         onClick: () => {},
+    //       },
+    //       { default: () => '去看看' }
+    //     ),
+    // });
   });
 
   onUnmounted(() => {

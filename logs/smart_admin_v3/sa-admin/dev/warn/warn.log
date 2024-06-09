@@ -1,0 +1,10 @@
+[2024-06-02 11:12:25,409][WARN ][main] 
+-------------【sa-admin】 服务已成功启动 （sa-admin started successfully）-------------
+	当前启动环境:	dev , 开发环境
+	返回码初始化:	完成15个返回码初始化
+	服务本机地址:	http://localhost:1024/
+	服务外网地址:	http://192.168.31.124:1024/
+	Swagger地址:	http://localhost:1024/swagger-ui/index.html
+	knife4j地址:	http://localhost:1024/doc.html
+-------------------------------------------------------------------------------------
+ (WebServerListener.java:74)
