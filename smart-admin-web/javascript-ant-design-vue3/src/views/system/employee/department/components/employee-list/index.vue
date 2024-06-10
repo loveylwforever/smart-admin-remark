@@ -138,12 +138,12 @@
     {
       title: '姓名',
       dataIndex: 'actualName',
-      width: 85,
+      width: 80,
     },
     {
       title: '手机号',
       dataIndex: 'phone',
-      width: 80,
+      width: 85,
     },
     {
       title: '性别',
