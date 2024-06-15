@@ -67,7 +67,8 @@ public class DictCacheService {
         dictValueVOList.forEach(e -> {
             VALUE_CACHE.put(e.getValueCode(), e);
         });
-        log.info("################# 数据字典缓存初始化完毕 ###################");
+        log.info("################# 数据字典缓存初始化完毕：VALUE_CACHE[{}] DICT_CACHE[{}] ###################",
+                VALUE_CACHE.size(), DICT_CACHE.size());
     }
 
     /**

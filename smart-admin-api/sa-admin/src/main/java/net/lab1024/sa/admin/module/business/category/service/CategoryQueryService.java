@@ -37,7 +37,7 @@ public class CategoryQueryService {
     /**
      * 根据 id 查询未删除的类目
      *
-     * @param categoryId
+     * @param categoryId 分类ID
      * @return 可能 null
      */
     public Optional<CategoryEntity> queryCategory(Long categoryId) {
